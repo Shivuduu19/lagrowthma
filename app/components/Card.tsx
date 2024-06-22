@@ -10,7 +10,7 @@ import microdn from '@/public/lagrow/logo-microdon-1.png'
 const Card = ({ scroll }: any) => {
     const [scrollPos, setScrollPos] = useState(0)
     useMotionValueEvent(scroll, "change", (latest: number) => {
-        console.log("Page scroll: ", latest)
+        // console.log("Page scroll: ", latest)
         setScrollPos(latest)
     })
 
